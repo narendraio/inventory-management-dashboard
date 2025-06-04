@@ -33,7 +33,7 @@ const App: React.FC = () => {
     <div className="py-8 min-h-screen bg-gray-100">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
-        <h1 className="mb-8 text-3xl font-extrabold tracking-tight text-gray-900">
+        <h1 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">
           Inventory Dashboard
         </h1>
 

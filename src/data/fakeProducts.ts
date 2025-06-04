@@ -1,0 +1,73 @@
+export const initialProducts = [
+    {
+      id: "1",
+      name: "Wireless Headphones",
+      category: "Electronics",
+      stock: 12,
+      price: 89.99,
+    },
+    {
+      id: "2",
+      name: "Bluetooth Speaker",
+      category: "Electronics",
+      stock: 3,
+      price: 49.99,
+    },
+    {
+      id: "3",
+      name: "Men's T-Shirt",
+      category: "Apparel",
+      stock: 30,
+      price: 15.0,
+    },
+    {
+      id: "4",
+      name: "Women's Jacket",
+      category: "Apparel",
+      stock: 5,
+      price: 59.99,
+    },
+    {
+      id: "5",
+      name: "Organic Apples",
+      category: "Food",
+      stock: 50,
+      price: 2.5,
+    },
+    {
+      id: "6",
+      name: "Energy Bar Pack",
+      category: "Food",
+      stock: 8,
+      price: 12.99,
+    },
+    {
+      id: "7",
+      name: "Laptop Stand",
+      category: "Electronics",
+      stock: 2,
+      price: 39.99,
+    },
+    {
+      id: "8",
+      name: "Sneakers",
+      category: "Apparel",
+      stock: 20,
+      price: 75.0,
+    },
+    {
+      id: "9",
+      name: "Milk - 1L",
+      category: "Food",
+      stock: 0,
+      price: 1.99,
+    },
+    {
+      id: "10",
+      name: "USB-C Cable",
+      category: "Electronics",
+      stock: 25,
+      price: 9.99,
+    },
+  ];
+  

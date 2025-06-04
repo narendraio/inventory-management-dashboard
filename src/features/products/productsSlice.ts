@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { initialProducts } from "../../data/fakeProducts";
 
 export interface Product {
   id: string;
@@ -17,7 +18,7 @@ interface ProductsState {
 }
 
 const initialState: ProductsState = {
-  items: [],
+  items: initialProducts,
   filter: {
     categories: [],
     inStockOnly: false,
@@ -29,7 +30,7 @@ const productsSlice = createSlice({
   initialState,
   reducers: {
     addProduct(state, action: PayloadAction<Product>) {
-      state.items.push(action.payload);
+      state.items.unshift(action.payload);
     },
     editProduct(state, action: PayloadAction<Product>) {
       const index = state.items.findIndex((p) => p.id === action.payload.id);

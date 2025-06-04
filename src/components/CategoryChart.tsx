@@ -33,8 +33,7 @@ const CategoryPieChart: React.FC = () => {
   }));
 
   return (
-    <div className="p-6 mt-8 bg-white rounded-xl shadow">
-      <h2 className="mb-4 text-xl font-semibold">Products by Category</h2>
+    <div className="p-1 mt-1 ">
       <ResponsiveContainer width="100%" height={300}>
         <PieChart>
           <Pie
