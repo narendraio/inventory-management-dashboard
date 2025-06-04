@@ -7,7 +7,6 @@ const COLORS = ["#1890ff", "#52c41a", "#faad14", "#eb2f96", "#13c2c2"];
 
 const RADIAN = Math.PI / 180;
 
-// Optional: custom label function (but not drawing lines or counts)
 const renderCustomLabel = ({
   cx, cy, midAngle, innerRadius, outerRadius, percent, index,
 }: any) => {
@@ -16,7 +15,6 @@ const renderCustomLabel = ({
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
   return (
     <text x={x} y={y} fill="white" textAnchor="middle" dominantBaseline="central" fontSize={12}>
-      {/* Only show percentage if you want */}
     </text>
   );
 };
