@@ -82,9 +82,6 @@ const ProductTable: React.FC<Props> = ({ onEdit, onDelete, rowSelection }) => {
       )
     }
   ];
-
-  
-
   return (
     <Table
       rowKey="id"
@@ -92,6 +89,7 @@ const ProductTable: React.FC<Props> = ({ onEdit, onDelete, rowSelection }) => {
       columns={columns}
       rowSelection={rowSelection}
       pagination={{ pageSize: 5 }}
+      scroll={{ x: "max-content" }}
     />
   );
 };
